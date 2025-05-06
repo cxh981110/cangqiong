@@ -19,7 +19,8 @@
             <if test="password!=null"> password = #{password},  </if>
             <if test="username!=null"> username = #{username}, </if>
             <if test="status!=null"> status = #{status}, </if>
-            <if test="updateTime!=null"> status = #{updateTime}, </if>
+            <if test="updateTime!=null"> update_Time = #{updateTime}, </if>
+            <if test="updateUser!=null"> update_User = #{updateUser}, </if>
         </set>
         where id = #{id}
     </update>
